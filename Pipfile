@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+console-menu = "*"
+ansicolors = "*"
+inquirer = "*"
+readchar = {git = "https://github.com/Cube707/python-readchar.git"}
+configmanager = "*"
+pathvalidate = "*"
+
+[dev-packages]
+pyinstaller = "*"
+stickytape = "*"
+
+[requires]
+python_version = "3.9"
