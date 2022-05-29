@@ -2,9 +2,10 @@
   <img width="200" src="logo.png" alt="EmuVRTools Logo" align="center">
 </p>
 <h1 align="center" style="margin-top: 0px;">EmuVRTools</h1>
-A collection of tools designed for use with EmuVR.
 
-If you have any questions or ideas for new tools, please submit an issue or ping me on Discord! (@hp)  
+A collection of tools designed to make using EmuVR easier.
+
+If you have any questions, suggestions, or ideas for new tools, please submit an issue or ping me on Discord! (@hp)  
 Additionally, if you would like to add existing tools to the repo, please submit an issue and/or a pull request.
 
 **Current Tools**:
@@ -33,4 +34,4 @@ Installation:
 Additionally, if you would like to build an executeable from source:
 1. Run `pipenv install --dev` to install all dependencies.
 2. Run `pipenv run python build.py` to build the `.exe` with `pyinstaller`. This may take a while.
-3. After it finishes, the `dist` directory will contain the built `.exe` and the `EmuVRTools.spec` file.
+3. After it finishes, the `dist` directory will contain the built `EmuVRTools.exe`.
