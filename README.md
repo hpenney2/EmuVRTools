@@ -16,7 +16,8 @@ Additionally, if you would like to add existing tools to the repo, please submit
 
 ### Installation
 Download the latest standalone `.exe` release from [the GitHub releases page](https://github.com/hpenney2/EmuVRTools/releases) and run it!
-It will create a config file in the same directory as the executable upon saving, **so you may want to put it in it's own folder.**
+It will create a config file in the same directory as the executable upon saving, **so you may want to put it in it's own folder.**  
+*Antivirus software may detect the file as a false positive, so you may need to add an exception. Alternatively, read the below to run EmuVRTools from source.*
 
 If you don't want to use the executable and you have Python installed,
 you can also download and extract the latest stable source `.zip` from the releases page and refer to the [Installing from source](#installing-from-source) section.
