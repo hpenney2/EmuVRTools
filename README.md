@@ -7,12 +7,17 @@ A collection of tools designed for use with EmuVR.
 If you have any questions or ideas for new tools, please submit an issue or ping me on Discord! (@hp)  
 Additionally, if you would like to add existing tools to the repo, please submit an issue and/or a pull request.
 
-<sup>***EmuVRTools is not associated with EmuVR.***</sup>
+**Current Tools**:
+- Audio CUE sheet creator - automatically generates CUE sheets for music discs
+- Netplay playlist generator - automatically generates a human-readable Netplay game list
+
+<sup>*EmuVRTools is not associated with EmuVR.*</sup>
 
 ### Installation
 Download the latest standalone `.exe` release from [the GitHub releases page](https://github.com/hpenney2/EmuVRTools/releases) and run it!
+It will create a config file in the same directory as the executable upon saving, **so you may want to put it in it's own folder.**
 
-If you don't want to use the executable and have Python installed,
+If you don't want to use the executable and you have Python installed,
 you can also download and extract the latest stable source `.zip` from the releases page and refer to the [Installing from source](#installing-from-source) section.
 
 ### Installing from source
@@ -21,6 +26,7 @@ you can also download and extract the latest stable source `.zip` from the relea
 - Pipenv (`pip install pipenv`)
 - The extracted source code (clone the repo or download and extract the latest source `.zip` from the releases page)
 
+Installation:
 1. In a terminal/command prompt, ensure that you are in the source directory and run `pipenv install` to install dependencies.
 2. Run `pipenv run python __main__.py` to start EmuVRTools.
 

@@ -1,5 +1,6 @@
 from inquirer.themes import Theme
 from blessed import Terminal
+from colors import color
 
 term = Terminal()
 
@@ -20,3 +21,6 @@ class EVRTheme(Theme):
         self.List.selection_color = term.bright_cyan + term.bold
         self.List.selection_cursor = ">"
         self.List.unselected_color = term.normal
+
+
+EmuVRText = f"{color('Emu', fg=14)}{color('VR', fg=13)}"

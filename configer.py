@@ -4,7 +4,9 @@ schema = {
     "evrconfig": {
         "cuecreator": {
             "presets": []
-        }
+        },
+
+        "evrdir": None
     }
 }
 
